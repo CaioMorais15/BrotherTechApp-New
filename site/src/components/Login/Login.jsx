@@ -17,6 +17,7 @@ export const Login = () => {
         <div id="Senha">
             <input className={styles.campoEmail} type="password" placeholder="Senha..." />
         </div>
+        
 
           <p>
           <input type="checkbox" /> Concordo com os Termos de Serviço e com a Política de Privacidade da Brothers Tech</p>
