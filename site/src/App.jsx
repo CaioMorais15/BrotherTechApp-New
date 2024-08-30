@@ -18,6 +18,9 @@ function App() {
       <Navbar />
       <Home />
       {/* </div> */}
+      <Login />
+      <Navbar />
+      <Home />
     </>
   );
 }
