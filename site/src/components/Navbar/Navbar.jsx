@@ -6,8 +6,8 @@ import logo from '../../assets/logotech.png'
 
 function Navbar() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container-fluid">
+        <nav className="p-0 m-0 navbar navbar-expand-lg navbar-light bg-light">
+            <div className="container-fluid mt-1">
                 <a className="navbar-brand" href="#">
                     <img className='mt-4'
                         src={logo}
@@ -19,7 +19,7 @@ function Navbar() {
 
                     />
                 </a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" padding="0px">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
@@ -43,9 +43,9 @@ function Navbar() {
                             <a className="nav-link" href="#contact">Mais</a>
                         </li>
                     </ul>
-                    <form class="d-flex" role="search" background="000000">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                            <button class="btn btn-outline-success" type="submit">Search</button>
+                    <form class="d-flex mt-03" role="search" background="000000">
+                        <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search" />
+                        <button class="btn btn-outline-success" type="submit">Search</button>
                     </form>
                 </div>
             </div>

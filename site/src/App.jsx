@@ -14,12 +14,10 @@ function App() {
 
   return (
     <>
-      <Login></Login>
-      </>
-  )
-    
-    <Navbar />
-    <Home />
+      {/* <div className='divPrincipal'> */}
+      <Navbar />
+      <Home />
+      {/* </div> */}
     </>
   );
 }
