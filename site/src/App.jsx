@@ -14,12 +14,9 @@ function App() {
 
   return (
     <>
-      <Login></Login>
-      </>
-  )
-    
-    <Navbar />
-    <Home />
+      <Login />
+      <Navbar />
+      <Home />
     </>
   );
 }
