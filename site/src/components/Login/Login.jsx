@@ -3,8 +3,13 @@ import styles from "./Login.module.css"
 export const Login = () => {
     return <>
     <div className={styles.divLogin}>
-        <img src="../../../public/logo.png" />
-        <div id="Logo"></div>
+
+        <h1 className={styles.divLogo}></h1>
+
+        <div className={styles.divLogo}>
+            <img src="/public/logo.png" />
+        </div>
+
          <h1 className={styles.caixa}>Bem-Vindo à Brothers Tech</h1>
          <div id="textoLogin">
 
@@ -21,8 +26,9 @@ export const Login = () => {
 
           <p>
           <input type="checkbox" /> Concordo com os Termos de Serviço e com a Política de Privacidade da Brothers Tech</p>
-            <button className={styles.campoEntrar} >Entrar</button>
-            <p>Ainda não tem uma conta?<a href="site/src/cadastro/Cadastrar.jsx" > Crie uma!</a></p>
+            <button className={styles.campoEntrar}><a href="site/src/components/Home">Entrar</a></button>
+            
+            <p>Ainda não tem uma conta?<a href="site/src/components/Cadastrar" > Crie uma!</a></p>
         </div>
         </div>
     </>

@@ -1,11 +1,10 @@
 :root{
-  --font-raleway:"Raleway", sans-serif;
-}
+    --font-raleway:"Raleway", sans-serif;
+  }
 
-.divLogo {
+  .divLogo {
     text-align: start;
 }
-
 
 body {
     background-color: #181A20;
@@ -13,37 +12,33 @@ body {
     
 }
 
-a {
-    text-decoration: none;
-    font-size: 14px;
-}
-
-p {
+.Caixa {
     color: #FFFFFF;
-    font-size: 14px;
-    text-align: center;
-    margin-top: 30px;
-    padding: 20px;
+    padding: 10px;
 }
 
-.caixa {
-    color: #FFFFFF ;
-    text-align: center;
-    font-size: 35px;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    padding: 15px;
-    
-}
-
-.tituloEmail {
+.Email {
     color: #FFFFFF ;
     text-align: left;
     font-size: 20px;
+    padding: 10px;
 }
 
-.campoEmail {
+.Senha {
+    color: #FFFFFF ;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.Confirmar {
+    color: #FFFFFF ;
+    text-align: left;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.campo {
     color: #FFFFFF;
     align-items: left ;
     width: 100%;
@@ -52,15 +47,6 @@ p {
     outline-color: #FFFFFF;
     font-size: 14px;
     padding-right: 0;
-
-    
-}
-
-.tituloSenha {
-    color: #FFFFFF ;
-    text-align: left;
-    font-size: 20px;
-    padding: 10px;
 }
 
 .campoEntrar{
@@ -69,8 +55,9 @@ p {
     margin-top: 30px;
     width: 50%;
     padding: 10px;
-
 }
+
+
 
 .divLogin{
     width: 610px ;
@@ -79,7 +66,3 @@ p {
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgb(255, 255, 255, 0.2);
 }
-
-
-
-

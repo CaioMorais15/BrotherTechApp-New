@@ -7,6 +7,7 @@ import Login from './components/login/login'
 
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
+import Cadastrar from './components/cadastrar/Cadastrar'
 
 
 
@@ -14,9 +15,11 @@ function App() {
 
   return (
     <>
-      <Login />
+      <Cadastrar />
+      <Login/>
+      {/* <Home/>
       <Navbar />
-      <Home />
+       */}
     </>
   );
 }
