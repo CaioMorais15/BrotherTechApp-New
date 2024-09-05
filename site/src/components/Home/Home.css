@@ -6,10 +6,10 @@
     background-color: #2b3139;
     display: flex;
 }*/
-.row{
+.row {
     color: white;
     font-family: Mochiy Pop One;
-    
+
 }
 
 .card-body {
@@ -17,8 +17,12 @@
     font-size: 64px;
     background-color: #2b3139;
     color: white;
-} 
+}
 
 .d-flex {
     margin-top: 30px;
+}
+
+.noticias {
+    color: rgb(255, 255, 255);
 }

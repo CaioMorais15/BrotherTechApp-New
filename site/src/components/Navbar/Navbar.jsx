@@ -24,6 +24,9 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav me-auto">
+                    <li className="nav-item">
+                            <a className="nav-link active" href="#">Sobre nós</a>
+                        </li>
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="#home">Compre Cripto</a>
                         </li>
@@ -44,7 +47,7 @@ function Navbar() {
                         </li>
                     </ul>
                     <form class="d-flex mt-03" role="search" background="000000">
-                        <input class="form-control me-1" type="search" placeholder="Search" aria-label="Search" />
+                        <input class="form-control me-1" type="ENTRE" placeholder="Search" aria-label="Search" />
                         <button class="btn btn-danger" type="submit">Cadastre</button>
                     </form>
                 </div>
