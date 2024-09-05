@@ -15,8 +15,8 @@ function Home() {
           </form>
         </div>
         <div className="col-12 col-md-5 ">
-          <div className="row">
-            <div className="rounded-5 col-12 col-md-4">
+          <div className="row ">
+            <div className="rounded-5 col-12 col-md-4 ">
               <p>Popular</p>
             </div>
 
@@ -27,12 +27,12 @@ function Home() {
               <p>Ver Todas as 350+ Moedas</p>
             </div>
           </div>
-          <div className='row'>
-            <p>Criptomoedas</p>
-            <p>Criptomoedas</p>
-            <p>Criptomoedas</p>
-            <p>Criptomoedas</p>
-            <p>Criptomoedas</p>
+          <div className='row col-md-4 '>
+            <p>BTC bitcoin</p>
+            <p>ETH ethereum</p>
+            <p>BNB bnb</p>
+            <p>XRP ripple</p>
+            <p>SOL solana</p>
 
           </div>
         </div>
