@@ -1,10 +1,14 @@
 import './Navbar.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from '../../assets/logotech.png'
-
+// import SobreNos from '../SobreNos/SobreNos';
+import { lazy } from 'react';
 
 
 function Navbar() {
+
+    const SobreNos = lazy(() => import('../SobreNos/SobreNos'));
+
     return (
         <nav className="p-0 m-0 navbar navbar-expand-lg navbar-light bg-light">
             <div className="container-fluid mt-1">
@@ -24,8 +28,8 @@ function Navbar() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNav">
                     <ul className="navbar-nav me-auto">
-                    <li className="nav-item">
-                            <a className="nav-link active" href="#">Sobre nós</a>
+                        <li className="nav-item">
+                            <a className="nav-link active" href={SobreNos} >Sobre nós</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="#home">Compre Cripto</a>
