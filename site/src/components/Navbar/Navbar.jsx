@@ -46,9 +46,9 @@ function Navbar() {
                             <Link className="nav-link" to="/mais">Mais</Link>
                         </li>
                     </ul>
-                    <form className="d-flex mt-3" role="search">
-                        <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-danger" type="submit">Cadastre</button>
+                    <form className="d-flex mt-03" role="search" background="000000">
+                        <input className="form-control me-1" type="search" placeholder="Search" aria-label="Search" />
+                        <button className="btn btn-outline-success" type="submit">Search</button>
                     </form>
                 </div>
             </div>

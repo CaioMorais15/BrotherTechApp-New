@@ -1,30 +1,33 @@
-import React from 'react';
-import './App.css';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import viteLogo from '/vite.svg'
+import './App.css'
+// import Login from './components/Login/Login'
 
-import Footer from './components/Footer/Footer';
+
 import Navbar from './components/Navbar/Navbar';
 import Home from './components/Home/Home';
-import SobreNos from './components/SobreNos/SobreNos';
+
+
 
 function App() {
+
   return (
     <>
-      <Router>
-        {/* O Navbar está fora das rotas para aparecer em todas as páginas */}
-        <Navbar />
-
-        {/* Definição das rotas */}
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/SobreNos" element={<SobreNos />} />
-        </Routes>
-
-        {/* O Footer também estará visível em todas as páginas */}
-        <Footer />
-      </Router>
+      {/* <div className='divPrincipal'> */}
+      <Navbar />
+      <Home />
+      {/* </div> */}
+      {/* <Login /> */}
+      
     </>
   );
 }
 
-export default App;
+
+
+
+
+
+
+export default App
