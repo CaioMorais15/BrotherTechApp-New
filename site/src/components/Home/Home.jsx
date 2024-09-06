@@ -9,14 +9,10 @@ function Home() {
         <div className="card-body col-12 col-md-6">
           213,278,714
           USUÁRIOS CONFIAM EM NÓS
-<<<<<<< HEAD
           <form className="d-flex" role="search" >
             <input className="form-control me-1 " type="search" placeholder="Email/Telefone" aria-label="Email/Telefone" />
             <button className="btn btn-danger" type="submit">Entrar</button>
           </form>
-=======
-
->>>>>>> Caio
         </div>
         <div className="col-12 col-md-5 ">
           <div className="row">
