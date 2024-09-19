@@ -7,7 +7,7 @@ export const Login = () => {
         <h1 className={styles.divLogo}></h1>
 
         <div className={styles.divLogo}>
-            <img src="/public/logo.png" />
+            <img src="/logo.png"/>
         </div>
 
          <h1 className={styles.caixa}>Bem-Vindo à Brothers Tech</h1>
@@ -34,4 +34,4 @@ export const Login = () => {
     </>
   }
   
-  export default Login
+  export default Login    

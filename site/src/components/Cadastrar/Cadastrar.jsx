@@ -9,7 +9,7 @@ export const Cadastrar = () => {
         <h1 className={styles.divLogo}></h1>
 
             <div className={styles.divLogo}>
-            <img src="/public/logo.png" />
+            <img src="/logo.png" />
         </div>
 
         <h1 className={styles.Caixa}>Bem-Vindo à Brothers Tech</h1>

@@ -73,13 +73,11 @@ p {
 }
 
 .divLogin{
-    width: 610px ;
+    margin-top: 50px;
+    max-width: 570px;
     padding: 50px;
     background-color: #2B3139;
     border-radius: 20px;
     box-shadow: 5px 5px 5px rgb(255, 255, 255, 0.2);
 }
-
-
-
 
