@@ -28,7 +28,7 @@ export const Login = () => {
           <input type="checkbox" /> Concordo com os Termos de Serviço e com a Política de Privacidade da Brothers Tech</p>
             <button className={styles.campoEntrar}><a href="site/src/components/Home">Entrar</a></button>
             
-            <p>Ainda não tem uma conta?<a href="site/src/components/Cadastrar" > Crie uma!</a></p>
+            <p>Ainda não tem uma conta?<a href="site/src/components/Cadastrar" > Crie uma!</a></p> 
         </div>
         </div>
     </>

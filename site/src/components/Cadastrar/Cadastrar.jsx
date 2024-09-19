@@ -29,7 +29,7 @@ export const Cadastrar = () => {
 
                 <p>
                 <input type="checkbox" />  Concordo com os Termos de Serviço e com a Política de Privacidade da Brothers Tech</p>
-            <button className={styles.campoEntrar} ><a href="site/src/components/Home">Cadastre-se</a></button>
+                <button className={styles.campoEntrar} ><a href="site/src/components/Home">Cadastre-se</a></button>
             
 
             </div>
